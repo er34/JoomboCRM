@@ -1,0 +1,289 @@
+{% load i18n %}
+{% load clients_tags %}
+{% load bleach_tags %}
+
+<html>
+
+<head>
+    <title> Joombo CRM </title>
+    <META content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/Jdatatable.css" />
+	<link rel="stylesheet" href="/static/css/jquery.fancybox.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/static/jquery-ui-1.11.4.custom/jquery-ui.css">
+	  <script src="/static/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+	  <script src="/static/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+      <script src="/static/js/jquery.cookie.js"></script>
+      <script src="/static/js/Jdatatable.js"></script>
+	  <script>
+      
+      var projecttablestrid;
+
+	  var dialogcount = 1;
+                
+      var activeJdatatable = '';
+      var Jdatatablerows = {};
+      var Jindexlist = [];
+      var Jbuffer = '';
+
+      $.ajaxSetup({
+        beforeSend:function(){
+            $("body").css('cursor','wait');
+            $(".buttons img").css('cursor','wait');
+        },
+        complete:function(){
+            $("body").css('cursor','auto');
+            $(".buttons img").css('cursor','pointer');
+        }
+      });
+    
+    function deactiveJtable() {
+        activeJdatatable = '';
+    }
+    
+    function showprojectinfo() {
+            if ($("#"+activeJdatatable+" .active").attr('id') != projecttablestrid) {
+                projecttablestrid = $("#"+activeJdatatable+" .active").attr('id');
+                $.ajax({
+                  type: 'POST',
+                  data: {csrfmiddlewaretoken:"{{ csrf_token }}", projectid: projecttablestrid },
+                  url: '{% url "projects" %}',
+                  success: function(response) {
+                        $( "#Task_table_index").html($(response).find("#Task_table_index").html());
+                        $( "#Task_table").html($(response).find("#Task_table").html());
+                        Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                  }
+                });
+            }
+      }
+      
+      function deleteclelm(those,id) {
+          str = $('#id_checkcatalog').val();
+          strl = str.split(' $$ ');
+          strl.forEach(function(item, i, strl) {
+              if (item.indexOf(id+' $# ')>=0) {
+                supstr = item;
+             }
+          });
+          $('#id_checkcatalog').val(str.replace(supstr+" $$ ",'').replace(supstr,''));
+          $(those).closest('div').remove();
+      }
+    
+    function JdatatableAction(operation) {
+        now = new Date();
+        code = $("#"+activeJdatatable+" .active").attr('id'); 
+        $.ajax({
+			  type: "POST",
+			  data: {csrfmiddlewaretoken:"{{ csrf_token }}",
+                     tableid: activeJdatatable,
+                     operation: operation,
+                     code: code,
+                     folderclass: $("#"+activeJdatatable+" .active .folderTrue").attr('class'),
+                     projectid: $("#Project_table .active").attr('id'),
+                     timezome: now.getTimezoneOffset()},
+			  url: '{% url "jdatatableaction" %}',
+              success: function(response) {
+                    result = $(response).find("#jdialog").html();
+                    if (result!=undefined) {
+                        dialogcount = dialogcount+1;
+                        Jbuffer = activeJdatatable;
+                        $( "#dialogstack" ).append('<div id="dialog' + dialogcount + '" title="'+$(response).find("#id_formname").val()+'">' + result + '</div>');
+                        $( "#dialog" + dialogcount ).dialog({width: 'auto'});
+                        $( "#dialog" + dialogcount ).on( "dialogclose", function( event, ui ) {
+                            activeJdatatable = Jbuffer;
+                            Jbuffer = "#"+activeJdatatable+" #"+code;                           
+                        });
+                        activeJdatatable = '';
+                    } else {
+                        result = $(response).find("#"+activeJdatatable).html();
+                        if (result!=undefined) {
+                            $( "#"+activeJdatatable ).html(result);
+                            $( "#"+activeJdatatable+"_index" ).html($(response).find("#"+activeJdatatable+"_index").html());
+                            Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                            $("#"+activeJdatatable+" tr").removeClass("active");
+                            $("#"+activeJdatatable+" #"+code).addClass("active");
+                        }
+                    }
+                }
+			});
+    }
+    
+    function submitjeditform(thisdialogid) {
+        var fmsg = new FormData($('#'+thisdialogid+ ' .editform').get(0));
+        $.ajax({
+		    type: "POST",
+			data: fmsg,
+			url: '{% url "jeditformprocessor" %}',
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(response) { 
+                       $( "#" + thisdialogid ).dialog( "close" );
+                       result = $(response).find("#"+activeJdatatable).html();
+                       $( "#"+activeJdatatable ).html(result);
+                        result = $(response).find("#"+activeJdatatable+"_index").html();
+                       $( "#"+activeJdatatable+"_index" ).html(result);
+                       Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                       $("#"+activeJdatatable+" tr").removeClass("active");
+                       $(Jbuffer).addClass("active");
+                   } 
+			});
+                    
+        }
+    
+      $(document).ready(function () {         
+               
+        $(".rstblock").on("click",".datatable", function(){
+          activeJdatatable = this.id;
+          Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+        });
+               
+        $(".rstblock").on("click","#Project_table .datatabledata", function(){
+          activeJdatatable = $(this).closest('table').attr('id');
+          $("#"+activeJdatatable+" tr").removeClass("active");
+          $("#"+activeJdatatable+" #"+this.id).addClass("active");
+          showprojectinfo();
+        });
+        
+        $(".rstblock").on("click","#Task_table .datatabledata", function(){
+          activeJdatatable = $(this).closest('table').attr('id');
+          $("#"+activeJdatatable+" tr").removeClass("active");
+          $("#"+activeJdatatable+" #"+this.id).addClass("active");
+        });
+        
+        $(".rstblock").on("dblclick",".datatabledata", function(){
+            JdatatableAction('dblclick');
+        });
+                        
+        $(document).keydown(function (e) { 
+            if (e.keyCode == 40) {
+                if (activeJdatatable!='none') {
+                    Jstrind = Jindexlist.indexOf($("#"+activeJdatatable+" .active").attr('id'));
+                    if (Jstrind<Jindexlist.length-1) {
+                        $("#"+activeJdatatable+" tr").removeClass("active");
+                        $("#"+activeJdatatable+" #"+Jindexlist[Jstrind+1]).addClass("active");
+                        if (activeJdatatable == 'Project_table') {
+                            showprojectinfo();
+                        }
+                        if (typeof jdatatablekeydown == 'function') { 
+                            jdatatablekeydown(e.keyCode);
+                        }
+                    }
+                }
+            }
+            else if (e.keyCode == 38) {
+                if (Jindexlist!='none') {
+                    Jstrind = Jindexlist.indexOf($("#"+activeJdatatable+" .active").attr('id'));
+                    if (Jstrind>0) {
+                        $("#"+activeJdatatable+" tr").removeClass("active");
+                        $("#"+activeJdatatable+" #"+Jindexlist[Jstrind-1]).addClass("active");
+                        if (activeJdatatable == 'Project_table') {
+                            showprojectinfo();
+                        }
+                        if (typeof jdatatablekeydown == 'function') { 
+                            jdatatablekeydown(e.keyCode);
+                        }
+                    }
+                }
+            }
+            else if (e.keyCode == 13) {
+                if (Jindexlist!='none' && activeJdatatable!='') {
+                    JdatatableAction('enter');
+                }
+            }
+            else if (e.keyCode == 46) {
+                if (Jindexlist!='none' && activeJdatatable!='') {
+                    JdatatableAction('delete');
+                }
+            }
+        });
+    });
+        
+	  </script>
+      <style>
+      
+        
+      </style>
+</head>
+
+<body>
+	{% load staticfiles %}
+    <table id="bodytable1">
+        <tr id="toolbar" style="height:20px;">
+            <td style="width:25%">
+                <div class="tabbuttoncontainer" style="float:left;"><a href="{% url 'entry' %}"><div class="tabbutton">Органайзер </div></a></div>
+                <div class="tabbuttoncontainer" style="float:left;"><div class="tabbuttonactive">Проекты</div></div>          
+            </td>
+            <td style="width:50%"></td>
+            <td style="text-align:right;" style="width:25%">
+                <div class="tabbuttoncontainer" style="float:right;"><a href="{% url 'logout' %}"><div class="tabbutton">Выйти</div></a></div>
+            </td>
+        </tr> 
+        <tr>
+            <td id="tdprojects">
+                <span class="topicfont">&nbsp;&nbsp;&nbsp;Проекты</span>
+                <div class="rstblock">
+                    <div id="Project_table_index" style="visibility: hidden; height:0px;">{{ projectcodes }}</div>
+                    <div class="buttons Project_table" style="width:100%;">
+                        <img src={% static "img/buttons/add.png" %}  onclick="activeJdatatable = 'Project_table'; JdatatableAction('add')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/copy.png" %} onclick="activeJdatatable = 'Project_table'; JdatatableAction('copy')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/edit.png" %} onclick="activeJdatatable = 'Project_table'; JdatatableAction('edit')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/delete.png" %} onclick="activeJdatatable = 'Project_table'; JdatatableAction('delete')" style="cursor: pointer;">                              
+                    </div>
+                    <table class="datatable" id="Project_table">
+                        <tr class="datatablehead" id="{{project.code}}">
+                            <td rowspan=3 width="10px">
+                            </td>
+                            <td width="80px">Начало</td>
+                            <td width="80px">Окончание</td>
+						</tr>
+						<tr class="datatablehead" id="{{delo.code}}">
+                            <td colspan=2>Заголовок</td>
+						</tr>
+                        <tr class="datatablehead" id="{{delo.code}}">
+                            <td>Уровень выполнения</td>
+                            <td>Уровень стабильности</td>
+						</tr>
+						{% for project in project_list %}
+							<tr class="datatabledata" id="{{project.code}}">
+                                <td rowspan=3 width="10px">
+                                </td>
+							    <td width="80px">{{ project.start|date:'H:i' }}</td>
+                                <td width="80px">{{ project.finish|date:'H:i' }}</td>
+							</tr>
+							<tr class="datatabledata" id="{{project.code}}">
+								<td colspan=2>{{ project.topic }}</td>
+							</tr>
+                            <tr class="datatabledata" id="{{project.code}}">
+								<td>
+                                    <div style="width:{{ project.progress }}%;background-color:{{project|progress}};">
+                                    <div z-index="2" style="width:100px;">&nbsp;&nbsp;
+                                    {{ project.progress }} %</div></div>
+                                </td>
+                                <td>
+                                    <div style="width:{{ project|stabilityvalue }}%;background-color:{{project|stabilitycolor}};">
+                                    <div z-index="2" style="width:100px;">&nbsp;&nbsp;
+                                    {{ project|stabilityvalue }} %</div></div>
+                                </td>
+							</tr>
+						{% endfor %}
+					</table>
+                </div>             
+            </td>
+            <td>
+                 <span class="topicfont">&nbsp;&nbsp;&nbsp;Задачи</span>
+                  <div class="rstblock">
+                                   
+                    {{ tasktable|safe }}
+                                                         
+                  </div>
+            </td>
+            <td>
+             <div id="dialogstack">	
+	</div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

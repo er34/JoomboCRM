@@ -1,0 +1,21 @@
+﻿{% load i18n %}
+<div>
+<div id="jdialog">
+<form action="javascript:void(null);" id="{{ modelname }}_editform" class="editform" method="post"
+ onsubmit="submitjeditform($(this).closest('div').attr('id'))">
+{% csrf_token %}
+<table>
+{% for field in jeditform %}
+{% if field.is_hidden %}
+{{ field }}
+{% else %}
+<tr><th>{{ field.label_tag }} {{field.type}}</th><td>{{ field }}</td></tr>
+{% endif %}
+{% endfor %}
+</table>
+<input id="id_model" name="model" type="hidden" value={{ modelname }}>
+<input id="id_parentcode" name="parentcode" type="hidden" value={{ parentcode }}>
+<input type="submit" value="OK">
+</form>
+</div>
+</div>

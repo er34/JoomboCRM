@@ -1,0 +1,11 @@
+﻿{% load i18n %}
+
+<form action="javascript:void(null);" id="contacteditform{{ thisdialogid }}" method="post"
+ onsubmit="sendpost('{% url 'editcontactprocessor' %}','{{ thisdialogid }}','contacteditform')">
+{% csrf_token %}
+<table>
+{{ contacteditform.as_table }}
+</table>
+<input id="id_clientid" name="clientid" type="hidden" value={{ clientid }}>
+<input type="submit" value="OK">
+</form>

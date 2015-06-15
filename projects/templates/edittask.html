@@ -1,0 +1,78 @@
+﻿{% load i18n %}
+<div>
+<div id="jdialog">
+<form action="javascript:void(null);" id="{{ modelname }}_editform" class="editform" method="post"
+ onsubmit="submitjeditform($(this).closest('div').attr('id'))">
+{% csrf_token %}
+<table>
+
+
+<tbody><tr><th>{{ jeditform.code.label }} </th><td colspan="3">{{ jeditform.code }}</td></tr>
+
+
+
+<tr><th>{{ jeditform.project.label }}</th><td>{{ jeditform.project }}</td>
+<th>{{ jeditform.parent.label }}</th><td>{{ jeditform.parent }}</td></tr>
+<tr><th>{{ jeditform.liable.label }}</th><td>{{ jeditform.liable }}</td>
+<th>{{ jeditform.topic.label }}</th><td>{{ jeditform.topic }}</td></tr>
+
+<tr><th>{{ jeditform.start.label }}</th><td>{{ jeditform.start }}</td>
+<th>{{ jeditform.finish.label }}</th><td>{{ jeditform.finish }}</td></tr>
+
+<tr><th></th><th>
+Sendstartsms 
+<input style="width:30px;" id="id_sendstartsms" name="sendstartsms" type="checkbox">
+Sendstartmail 
+<input style="width:30px;" id="id_sendstartmail" name="sendstartmail" type="checkbox">
+</th>
+<th></th><th>
+Sendfinishsms
+<input style="width:30px;" id="id_sendfinishsms" name="sendfinishsms" type="checkbox">
+Sendfinishmail
+<input style="width:30px;" id="id_sendfinishmail" name="sendfinishmail" type="checkbox">
+</th></tr>
+
+<tr><th>{{ jeditform.content.label }}</th><td colspan="3">{{ jeditform.content }}</td></tr>
+
+<tr><th>{{ jeditform.finished.label }}</th><td>{{ jeditform.finished }}</td>
+<th>{{ jeditform.progress.label }}</th><td>{{ jeditform.progress }}</td></tr>
+<tr><th></th><th>
+Sendfinishedsms 
+<input style="width:30px;" id="id_sendfinishedsms" name="sendfinishedsms" type="checkbox">
+Sendfinishedmail 
+<input style="width:30px;" id="id_sendfinishedmail" name="sendfinishedmail" type="checkbox">
+</th><th>{{ jeditform.status.label }}</th><td>{{ jeditform.status }}</td></tr>
+
+<tr><th>{{ jeditform.result.label }}</th><td colspan="3">{{ jeditform.result }}</td></tr>
+
+<tr><th>{{ jeditform.checklist.label }}</th><td>
+{{ checklist.chlist|safe }}
+<input type="hidden" id="id_checkcatalog" name="checkcatalog" value="{{  checklist.catalog }}">
+</td>
+<th>{{ jeditform.attaches.label }}</th><td>{{ jeditform.attaches }}</td></tr>
+
+<tr><th>{{ jeditform.admins.label }}</th><td>{{ jeditform.admins }}</td>
+<th>{{ jeditform.liables.label }}</th><td>{{ jeditform.liables }}</td></tr>
+
+<tr><th>{{ jeditform.observers.label }}</th><td>{{ jeditform.observers }}</td>
+<th>{{ jeditform.statushist.label }}</th><td>{{ jeditform.statushist }}</td></tr>
+
+<tr><td colspan="4"><input id="id_projectid" name="projectid" type="hidden" value="000000001"></td></tr>
+</tbody></table>
+<!--
+<select multiple="multiple" id="id_observers" name="observers">
+<option value="3" selected="selected">Guest</option>
+<option value="4" selected="selected">mg-spb</option>
+<option value="1">er34</option>
+</select>
+-->
+<input id="id_model" name="model" type="hidden" value={{ modelname }}>
+<input id="id_parentcode" name="parentcode" type="hidden" value={{ parentcode }}>
+<input type="submit" value="OK">
+</form>
+Current file: 
+{% if delo.attache %}
+<a href="{{ delo.attache.url }}">{{ delo.attache.name }}</a></li>
+{% endif %}
+</div>
+</div>

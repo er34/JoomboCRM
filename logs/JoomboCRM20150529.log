@@ -1,0 +1,221 @@
+[29/May/2015 23:38:13] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:38:12.870000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:38:12.870000+00:00')
+[29/May/2015 23:38:13] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:38:14] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    msg.send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:43:03] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:43:02.411000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:43:02.411000+00:00')
+[29/May/2015 23:43:03] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:43:04] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    msg.send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:45:50] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:45:49.635000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:45:49.635000+00:00')
+[29/May/2015 23:45:50] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:45:51] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 257, in sendmail
+    msg.send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:46:28] DEBUG [django.db.backends:79] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:46:27.430000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:46:27.430000+00:00')
+[29/May/2015 23:46:28] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:46:29] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:49:11] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:49:10.537000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:49:10.537000+00:00')
+[29/May/2015 23:49:11] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:49:12] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:50:18] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:50:17.436000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:50:17.436000+00:00')
+[29/May/2015 23:50:18] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:50:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_dela"."id", "dela_dela"."owner_id", "dela_dela"."code", "dela_dela"."topic", "dela_dela"."start", "dela_dela"."finish", "dela_dela"."content", "dela_dela"."result", "dela_dela"."finished", "dela_dela"."attache", "dela_dela"."isdeleted" FROM "dela_dela" WHERE ("dela_dela"."owner_id" = 1  AND "dela_dela"."start" <= '2015-05-27 23:59:59.099999+03:00'  AND "dela_dela"."finish" >= '2015-05-27 00:00:00+03:00'  AND "dela_dela"."isdeleted" = false ); args=(1, u'2015-05-27 23:59:59.099999+03:00', u'2015-05-27 00:00:00+03:00', False)
+[29/May/2015 23:50:18] DEBUG [django.db.backends:79] (0.001) SELECT "clients_client"."id", "clients_client"."owner_id", "clients_client"."parent_id", "clients_client"."isfolder", "clients_client"."code", "clients_client"."name", "clients_client"."iscompany", "clients_client"."INN", "clients_client"."KPP", "clients_client"."email", "clients_client"."uradress", "clients_client"."factadress", "clients_client"."phone", "clients_client"."fax", "clients_client"."site", "clients_client"."isdeleted", "clients_client"."region_id", "clients_client"."categoty_id", "clients_client"."reltype_id" FROM "clients_client" WHERE ("clients_client"."parent_id" IS NULL AND "clients_client"."isdeleted" = false  AND "clients_client"."owner_id" = 1 ); args=(False, 1)
+[29/May/2015 23:50:18] DEBUG [utils.Jdatatable:22] [<Client: (1)000000001 Трафик>, <Client: (11)000000002 Джумбо>, <Client: (27)000000003 Медимпекс>, <Client: (31)000000007 АМА>, <Client: (38)000000014 Burnett>, <Client: (43)000000019 Новые>]
+[29/May/2015 23:50:18] DEBUG [utils.Jdatatable:22] []
+[29/May/2015 23:50:18] DEBUG [utils.Jdatatable:22] []
+[29/May/2015 23:50:18] DEBUG [django.db.backends:79] (0.000) UPDATE "django_session" SET "session_data" = 'OWEzODZjM2Q3NTgwMzg0NGY5YzhiODYwMmZhOGM4NDk4MmQzNGFmMDp7InRpbWVvZmZzZXQiOjE2MjAwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNS0yNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MSwicGFyZW50Y29kZSI6bnVsbH0=', "expire_date" = '2015-06-12 20:50:18.602000+00:00' WHERE "django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h' ; args=(u'OWEzODZjM2Q3NTgwMzg0NGY5YzhiODYwMmZhOGM4NDk4MmQzNGFmMDp7InRpbWVvZmZzZXQiOjE2MjAwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNS0yNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MSwicGFyZW50Y29kZSI6bnVsbH0=', u'2015-06-12 20:50:18.602000+00:00', '8653sj7d0uxeptrrhmlyypz9xefvof6h')
+[29/May/2015 23:50:19] DEBUG [django.db.backends:79] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:50:18.720000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:50:18.720000+00:00')
+[29/May/2015 23:50:19] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:50:19] DEBUG [dela.views:23] 2700
+[29/May/2015 23:50:19] DEBUG [dela.views:26] 162000
+[29/May/2015 23:50:19] DEBUG [django.db.backends:79] (0.001) SELECT "dela_dela"."id", "dela_dela"."owner_id", "dela_dela"."code", "dela_dela"."topic", "dela_dela"."start", "dela_dela"."finish", "dela_dela"."content", "dela_dela"."result", "dela_dela"."finished", "dela_dela"."attache", "dela_dela"."isdeleted" FROM "dela_dela" WHERE ("dela_dela"."owner_id" = 1  AND "dela_dela"."start" <= '2015-05-27 23:59:59.099999+03:00'  AND "dela_dela"."finish" >= '2015-05-27 00:00:00+03:00'  AND "dela_dela"."isdeleted" = false ); args=(1, u'2015-05-27 23:59:59.099999+03:00', u'2015-05-27 00:00:00+03:00', False)
+[29/May/2015 23:50:19] DEBUG [django.db.backends:79] (0.001) SELECT "clients_client"."id", "clients_client"."owner_id", "clients_client"."parent_id", "clients_client"."isfolder", "clients_client"."code", "clients_client"."name", "clients_client"."iscompany", "clients_client"."INN", "clients_client"."KPP", "clients_client"."email", "clients_client"."uradress", "clients_client"."factadress", "clients_client"."phone", "clients_client"."fax", "clients_client"."site", "clients_client"."isdeleted", "clients_client"."region_id", "clients_client"."categoty_id", "clients_client"."reltype_id" FROM "clients_client" WHERE ("clients_client"."parent_id" IS NULL AND "clients_client"."isdeleted" = false  AND "clients_client"."owner_id" = 1 ); args=(False, 1)
+[29/May/2015 23:50:19] DEBUG [utils.Jdatatable:22] [<Client: (1)000000001 Трафик>, <Client: (11)000000002 Джумбо>, <Client: (27)000000003 Медимпекс>, <Client: (31)000000007 АМА>, <Client: (38)000000014 Burnett>, <Client: (43)000000019 Новые>]
+[29/May/2015 23:50:19] DEBUG [utils.Jdatatable:22] []
+[29/May/2015 23:50:19] DEBUG [utils.Jdatatable:22] []
+[29/May/2015 23:50:19] DEBUG [django.db.backends:79] (0.000) UPDATE "django_session" SET "session_data" = 'ZmNmMDg3ZmZmODM5MzRkYjMzYjFmYjZmYjU5YzM0YjJkYzc4MGI4Njp7InRpbWVvZmZzZXQiOjE2MjAwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNS0yNyIsIl9hdXRoX3VzZXJfaWQiOjEsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwicGFyZW50Y29kZSI6bnVsbH0=', "expire_date" = '2015-06-12 20:50:19.752000+00:00' WHERE "django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h' ; args=(u'ZmNmMDg3ZmZmODM5MzRkYjMzYjFmYjZmYjU5YzM0YjJkYzc4MGI4Njp7InRpbWVvZmZzZXQiOjE2MjAwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNS0yNyIsIl9hdXRoX3VzZXJfaWQiOjEsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwicGFyZW50Y29kZSI6bnVsbH0=', u'2015-06-12 20:50:19.752000+00:00', '8653sj7d0uxeptrrhmlyypz9xefvof6h')
+[29/May/2015 23:52:00] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:51:59.540000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:51:59.540000+00:00')
+[29/May/2015 23:52:00] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:52:01] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 87, in send_messages
+    new_conn_created = self.open()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 54, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Bitnami\djangostack\python\lib\smtplib.py", line 615, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/ContinueSignIn?sarp=1&scc=1&plt=AKgnsbuZY\n5.7.14 hcs8hqSG9dHbO20hS1rdZcr9EKKlYzOjvf-pRE7wH_ZK5KRxvsAelTA76V9vXirvWDyyrn\n5.7.14 22EGC-bE6vxtlGj72J2698jWkNXWgmN_Mu0TVvtWP_dWvBD87r7BCinSjS3IIzklYCge7q\n5.7.14 NUD_2g3uLKmn4tJZTg2xhmSGY1_AlE3YI7W9tfRBUEOlgJDjp4uKsRV7syt2db1QDzinC0\n5.7.14 W0Spv4lXfk2Ze97qULOh9wwKBEMw> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14 Learn more at\n5.7.14 https://support.google.com/mail/bin/answer.py?answer=78754 q1sm1737549lah.27 - gsmtp')
+[29/May/2015 23:52:58] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:52:57.020000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:52:57.020000+00:00')
+[29/May/2015 23:52:58] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:52:58] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:54:06] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:54:05.689000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:54:05.689000+00:00')
+[29/May/2015 23:54:06] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:54:07] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 94, in send_messages
+    sent = self._send(message)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 108, in _send
+    message = email_message.message()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 256, in message
+    msg['Message-ID'] = make_msgid()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 61, in make_msgid
+    msgid = '<%s.%s.%s%s@%s>' % (utcdate, pid, randint, idstring, idhost)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xcf in position 4: ordinal not in range(128)
+[29/May/2015 23:55:55] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:55:54.413000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:55:54.413000+00:00')
+[29/May/2015 23:55:55] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:57:24] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:57:23.428000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:57:23.428000+00:00')
+[29/May/2015 23:57:24] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:57:25] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:57:24.147000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:57:24.147000+00:00')
+[29/May/2015 23:57:25] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:58:58] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '8653sj7d0uxeptrrhmlyypz9xefvof6h'  AND "django_session"."expire_date" > '2015-05-29 20:58:57.545000+00:00' ); args=('8653sj7d0uxeptrrhmlyypz9xefvof6h', u'2015-05-29 20:58:57.545000+00:00')
+[29/May/2015 23:58:58] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[29/May/2015 23:58:58] ERROR [django.request:224] Internal Server Error: /sendmail/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/dela\views.py", line 255, in sendmail
+    send_mail('Subject here', 'Here is the message.', 'joerespublic@yandex.ru', ['ggbystrov@yandex.ru'], fail_silently=False)
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\__init__.py", line 50, in send_mail
+    connection=connection).send()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 87, in send_messages
+    new_conn_created = self.open()
+  File "C:\Bitnami\djangostack\apps\django\django\core\mail\backends\smtp.py", line 54, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Bitnami\djangostack\python\lib\smtplib.py", line 615, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (530, '5.7.7 Email sending without SSL/TLS encryption is not allowed. Please see: http://help.yandex.ru/mail/mail-clients/ssl.xml')

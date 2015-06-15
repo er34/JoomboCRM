@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-07 18:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\forms.py:9 .\models.py:16 .\models.py:57 .\models.py:75
+msgid "Code"
+msgstr ""
+
+#: .\forms.py:10 .\models.py:17 .\models.py:58 .\models.py:76
+msgid "Name"
+msgstr ""
+
+#: .\forms.py:18
+msgid "FIO"
+msgstr ""
+
+#: .\forms.py:19 .\models.py:62
+msgid "Email"
+msgstr ""
+
+#: .\forms.py:20
+msgid "Birthday"
+msgstr ""
+
+#: .\forms.py:21
+msgid "Position"
+msgstr ""
+
+#: .\forms.py:22 .\models.py:24 .\models.py:65
+msgid "Phone"
+msgstr ""
+
+#: .\models.py:14 .\models.py:56
+msgid "Parent"
+msgstr ""
+
+#: .\models.py:22
+msgid "Uradress"
+msgstr ""
+
+#: .\models.py:23
+msgid "Factadress"
+msgstr ""
+
+#: .\models.py:38
+msgid "EditingFolder"
+msgstr ""
+
+#: .\models.py:41
+msgid "EditingClient"
+msgstr ""
+
+#: .\models.py:59
+msgid "Is company"
+msgstr ""
+
+#: .\models.py:60
+msgid "INN"
+msgstr ""
+
+#: .\models.py:61
+msgid "KPP"
+msgstr ""
+
+#: .\models.py:63
+msgid "Company Address"
+msgstr ""
+
+#: .\models.py:64
+msgid "Post address"
+msgstr ""
+
+#: .\models.py:66
+msgid "Fax"
+msgstr ""
+
+#: .\models.py:67
+msgid "Site"
+msgstr ""

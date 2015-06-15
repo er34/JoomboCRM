@@ -1,0 +1,11 @@
+﻿{% load i18n %}
+
+<form action="javascript:void(null);" id="clienteditform{{ thisdialogid }}" method="post"
+ onsubmit="sendpost('{% url 'editclientprocessor' %}','{{ thisdialogid }}','clienteditform')">
+{% csrf_token %}
+<table>
+{{ clienteditform.as_table }}
+</table>
+<input id="id_isfolder" name="isfolder" type="hidden" value={{ isfolder }}>
+<input type="submit" value="OK">
+</form>

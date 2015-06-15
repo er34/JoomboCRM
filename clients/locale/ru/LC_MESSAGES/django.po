@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-07 18:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: .\forms.py:9 .\models.py:16 .\models.py:57 .\models.py:75
+msgid "Code"
+msgstr "Код"
+
+#: .\forms.py:10 .\models.py:17 .\models.py:58 .\models.py:76
+msgid "Name"
+msgstr "Наименование"
+
+#: .\forms.py:18
+msgid "FIO"
+msgstr "ФИО"
+
+#: .\forms.py:19 .\models.py:62
+msgid "Email"
+msgstr ""
+
+#: .\forms.py:20
+msgid "Birthday"
+msgstr "Дата рождения"
+
+#: .\forms.py:21
+msgid "Position"
+msgstr "Должность"
+
+#: .\forms.py:22 .\models.py:24 .\models.py:65
+msgid "Phone"
+msgstr "Телефон"
+
+#: .\models.py:14 .\models.py:56
+msgid "Parent"
+msgstr "Папка"
+
+#: .\models.py:22
+msgid "Uradress"
+msgstr "Юридический адрес"
+
+#: .\models.py:23
+#, fuzzy
+msgid "Factadress"
+msgstr "Фактический адрес"
+
+#: .\models.py:38
+msgid "EditingFolder"
+msgstr "Редактирование папки"
+
+#: .\models.py:41
+msgid "EditingClient"
+msgstr "Редактирование клиента"
+
+#: .\models.py:59
+msgid "Is company"
+msgstr "Юр. лицо"
+
+#: .\models.py:60
+msgid "INN"
+msgstr "ИНН"
+
+#: .\models.py:61
+msgid "KPP"
+msgstr "КПП"
+
+#: .\models.py:63
+msgid "Company Address"
+msgstr "Юридический адрес"
+
+#: .\models.py:64
+msgid "Post address"
+msgstr "Фактический адрес"
+
+#: .\models.py:66
+msgid "Fax"
+msgstr "Факс"
+
+#: .\models.py:67
+msgid "Site"
+msgstr "Сайт"
+
+#, fuzzy
+#~ msgid "code"
+#~ msgstr "Код"
+
+#, fuzzy
+#~ msgid "name"
+#~ msgstr "Наименование"
+
+#, fuzzy
+#~ msgid "phone"
+#~ msgstr "Телефон"

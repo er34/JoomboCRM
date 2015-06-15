@@ -1,0 +1,13 @@
+<table class="datatable"><tr class="datatablehead">'
+{% for col in columns %}
+<td>{{col}}</td>
+{% endfor %}
+</tr>
+{% for el in dataset %}
+<tr class="datatabledata">
+{% for col in columns %}
+<td>getattr(el, col)</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>

@@ -1,0 +1,31 @@
+﻿{% load i18n %}
+<div>
+<div id="jdialog">
+<form action="javascript:void(null);" id="{{ modelname }}_editform" class="editform" method="post"
+ onsubmit="submitjeditform($(this).closest('div').attr('id'))">
+{% csrf_token %}
+<table>
+<!--<tr><th>{{ jeditform.code.label }}</th><td>{{ jeditform.code }}</td></tr>
+<tr><th>{{ jeditform.topic.label }}</th><td>{{ jeditform.topic }}</td></tr>
+<tr><th>{{ jeditform.start.label }}</th><td>{{ jeditform.start }}</td></tr>
+<tr><td><table><tr><td>отправить СМС</td><td>{{ jeditform.sendstartsms }}
+    </td><td>отправить письмо</td><td> {{ jeditform.sendstartmail }}</td></td></tr>
+<tr><th>{{ jeditform.finish.label }}</th><td>{{ jeditform.finish }}</td></tr>-->
+{% for field in jeditform %}
+    {% if field.is_hidden %}
+        {{ field }}
+    {% else %}
+        <tr><th>{{ field.label_tag }} {{field.type}}</th><td>{{ field }}</td></tr>
+    {% endif %}
+{% endfor %}
+</table>
+<input id="id_model" name="model" type="hidden" value={{ modelname }}>
+<input id="id_parentcode" name="parentcode" type="hidden" value={{ parentcode }}>
+<input type="submit" value="OK">
+</form>
+Current file: 
+{% if delo.attache %}
+<a href="{{ delo.attache.url }}">{{ delo.attache.name }}</a></li>
+{% endif %}
+</div>
+</div>

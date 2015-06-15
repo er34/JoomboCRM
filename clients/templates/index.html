@@ -1,0 +1,362 @@
+{% load i18n %}
+{% load clients_tags %}
+
+<html>
+
+<head>
+    <title> Joombo CRM </title>
+    <META content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/Jdatatable.css" />
+	<link rel="stylesheet" href="/static/css/jquery.fancybox.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/static/jquery-ui-1.11.4.custom/jquery-ui.css">
+	  <script src="/static/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+	  <script src="/static/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+      <script src="/static/js/jquery.cookie.js"></script>
+      <script src="/static/js/Jdatatable.js"></script>
+	  <script>
+      
+      <!-- counter of dialog windows for making differ in theit id -->
+	  var dialogcount = 1;
+                
+      var clienttablestrid;
+      
+      <!-- code of current note client -->
+      var noteownercode = '';
+      var csrftoken = $.cookie('csrftoken');
+      
+      var activeJdatatable = '';
+      var Jdatatablerows = {};
+      var Jindexlist = [];
+      var Jbuffer = '';
+
+      $.ajaxSetup({
+        beforeSend:function(){
+            $("body").css('cursor','wait');
+            $(".buttons img").css('cursor','wait');
+        },
+        complete:function(){
+            $("body").css('cursor','auto');
+            $(".buttons img").css('cursor','pointer');
+        }
+      });
+    
+    function deactiveJtable() {
+        activeJdatatable = '';
+    }
+    
+    function JdatatableAction(operation) {
+        now = new Date();
+        code = $("#"+activeJdatatable+" .active").attr('id'); 
+        $.ajax({
+			  type: "POST",
+			  data: {csrfmiddlewaretoken:"{{ csrf_token }}",
+                     tableid: activeJdatatable,
+                     operation: operation,
+                     code: code,
+                     folderclass: $("#"+activeJdatatable+" .active .folderTrue").attr('class'),
+                     clientid: $("#Client_table .active").attr('id'),
+                     deladate: $("#dateinput").val(),
+                     timezome: now.getTimezoneOffset()},
+			  url: '{% url "jdatatableaction" %}',
+              success: function(response) {
+                    result = $(response).find("#jdialog").html();
+                    if (result!=undefined) {
+                        dialogcount = dialogcount+1;
+                        Jbuffer = activeJdatatable;
+                        $( "#dialogstack" ).append('<div id="dialog' + dialogcount + '" title="'+$(response).find("#id_formname").val()+'">' + result + '</div>');
+                        $( "#dialog" + dialogcount ).dialog({width: 'auto'});
+                        $( "#dialog" + dialogcount ).on( "dialogclose", function( event, ui ) {
+                            activeJdatatable = Jbuffer;
+                            Jbuffer = "#"+activeJdatatable+" #"+code;                           
+                        });
+                        activeJdatatable = '';
+                    } else {
+                        result = $(response).find("#"+activeJdatatable).html();
+                        if (result!=undefined) {
+                            $( "#"+activeJdatatable ).html(result);
+                            $( "#"+activeJdatatable+"_index" ).html($(response).find("#"+activeJdatatable+"_index").html());
+                            Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                            $("#"+activeJdatatable+" tr").removeClass("active");
+                            $("#"+activeJdatatable+" #"+code).addClass("active");
+                        }
+                    }
+                }
+			});
+    }
+    
+    function submitjeditform(thisdialogid) {
+        var fmsg = new FormData($('#'+thisdialogid+ ' .editform').get(0));
+        $.ajax({
+		    type: "POST",
+			data: fmsg,
+			url: '{% url "jeditformprocessor" %}',
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(response) { 
+                       $( "#" + thisdialogid ).dialog( "close" );
+                       result = $(response).find("#"+activeJdatatable).html();
+                       $( "#"+activeJdatatable ).html(result);
+                        result = $(response).find("#"+activeJdatatable+"_index").html();
+                       $( "#"+activeJdatatable+"_index" ).html(result);
+                       Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                       $("#"+activeJdatatable+" tr").removeClass("active");
+                       $(Jbuffer).addClass("active");
+                   } 
+			});
+                    
+        }
+    
+      $(document).ready(function () {         
+        usertime = new Date();  
+        delacodes = '{{ delacodes }}'.split(',');
+        tempdate = ("0" + usertime.getDate()).slice(-2); 
+        tempmonth = ("0" + (usertime.getMonth() + 1)).slice(-2);
+        today = ''+usertime.getFullYear()+'-'+tempmonth+'-'+tempdate;
+        if ($("#dateinput").val()=='') {
+            $("#dateinput").val(today);
+        }
+        settimeoffset();
+                      
+        $(".rstblock").on("click","#Client_table .datatabledata", function(){
+          activeJdatatable = $(this).closest('table').attr('id');
+          $("#"+activeJdatatable+" tr").removeClass("active");
+          $("#"+activeJdatatable+" #"+this.id).addClass("active");
+          showclientinfo();
+        });
+        
+        $(".rstblock").on("click","#Contact_table .datatabledata", function(){
+          activeJdatatable = $(this).closest('table').attr('id');
+          $("#"+activeJdatatable+" tr").removeClass("active");
+          $("#"+activeJdatatable+" #"+this.id).addClass("active");
+        });
+        
+        $(".rstblock").on("click","#Dela_table .datatabledata", function(){
+          activeJdatatable = $(this).closest('table').attr('id');
+          $("#"+activeJdatatable+" tr").removeClass("active");
+          $("#"+activeJdatatable+" #"+this.id).addClass("active");
+        });
+        
+        $(".rstblock").on("click",".datatable", function(){
+          activeJdatatable = this.id;
+          Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+        });
+        
+        $(".rstblock").on("dblclick",".datatabledata", function(){
+            JdatatableAction('dblclick');
+        });
+                        
+        $(document).keydown(function (e) { 
+            if (e.keyCode == 40) {
+                if (activeJdatatable!='none') {
+                    Jstrind = Jindexlist.indexOf($("#"+activeJdatatable+" .active").attr('id'));
+                    if (Jstrind<Jindexlist.length-1) {
+                        $("#"+activeJdatatable+" tr").removeClass("active");
+                        $("#"+activeJdatatable+" #"+Jindexlist[Jstrind+1]).addClass("active");
+                        if (activeJdatatable == 'Client_table') {
+                            showclientinfo();
+                        }
+                        if (typeof jdatatablekeydown == 'function') { 
+                            jdatatablekeydown(e.keyCode);
+                        }
+                    }
+                }
+            }
+            else if (e.keyCode == 38) {
+                if (Jindexlist!='none') {
+                    Jstrind = Jindexlist.indexOf($("#"+activeJdatatable+" .active").attr('id'));
+                    if (Jstrind>0) {
+                        $("#"+activeJdatatable+" tr").removeClass("active");
+                        $("#"+activeJdatatable+" #"+Jindexlist[Jstrind-1]).addClass("active");
+                        if (activeJdatatable == 'Client_table') {
+                            showclientinfo();
+                        }
+                        if (typeof jdatatablekeydown == 'function') { 
+                            jdatatablekeydown(e.keyCode);
+                        }
+                    }
+                }
+            }
+            else if (e.keyCode == 13) {
+                if (Jindexlist!='none' && activeJdatatable!='') {
+                    JdatatableAction('enter');
+                }
+            }
+            else if (e.keyCode == 46) {
+                if (Jindexlist!='none' && activeJdatatable!='') {
+                    JdatatableAction('delete');
+                }
+            }
+        });
+    });
+        
+    function savenote() {
+      value = $( "#clientnotearea").val();
+      if (clienttablestrid != "") {
+        $.ajax({
+          type: 'POST',
+          data: {csrfmiddlewaretoken:"{{ csrf_token }}", value: value, clientid: clienttablestrid },
+          url: '{% url "savenote" %}',
+          success: function (response) {
+          }
+        });
+        }
+        noteownercode = clienttablestrid;
+      }
+      
+        function showclientinfo() {
+            clienttablestrid = $("#"+activeJdatatable+" .active").attr('id');
+            if (clienttablestrid != "" && clienttablestrid != noteownercode) {
+            $.ajax({
+              type: 'POST',
+              data: {csrfmiddlewaretoken:"{{ csrf_token }}", clientid: clienttablestrid },
+              url: '{% url "entry" %}',
+              success: function(response) {
+                    $( "#clientnotearea").val($(response).find("#clientnotearea").val());
+                    $( "#Contact_table_index").html($(response).find("#Contact_table_index").html());
+                    $( "#Contact_table").html($(response).find("#Contact_table").html());
+                    Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+              }
+            });
+            noteownercode = clienttablestrid;
+            }
+      }
+      
+       function settimeoffset() { 
+        now = new Date(); 
+        usertime = new Date(now.getFullYear(),now.getMonth(),now.getDate(),now.getTimezoneOffset()/60*(-1),0,0);
+        inputtime = new Date($("#dateinput").val());
+        diff = (inputtime-usertime)/1000/60;
+        $.ajax({
+			  type: "POST",
+			  data: {csrfmiddlewaretoken:"{{ csrf_token }}",
+                     usertime: now.getTimezoneOffset()-diff,
+                     dateinput: $("#dateinput").val()},
+			  url: '{% url "settimeoffset" %}',
+              success: function(response) {
+                result = $(response).find("#Dela_table").html();
+                $( "#Dela_table" ).html(result);
+                if (activeJdatatable!='') {
+                  Jindexlist = $("#"+activeJdatatable+"_index").html().split(',');
+                }
+              }
+			});
+       }
+       
+        
+       
+       function changedate(deltam, deltad) {
+            inputtime = new Date($("#dateinput").val());
+            monthmore = new Date($("#dateinput").val());
+            monthmore.setMonth(inputtime.getMonth()+deltam);
+            deltad = (monthmore-inputtime)/1000/60/60/24+deltad;
+            document.getElementById('dateinput').stepUp(deltad);
+            settimeoffset();
+        }
+  
+	  </script>
+      
+</head>
+
+<body>
+	{% load staticfiles %}
+    <table id="bodytable1">
+        <tr id="toolbar" style="height:20px;"><td style="width:300px;">
+          <div class="tabbuttoncontainer" style="float:left;"><div class="tabbuttonactive">Органайзер </div></div>
+          <div class="tabbuttoncontainer" style="float:left;"><a href="{% url 'projects' %}"><div class="tabbutton">Проекты</div></a></div>          
+        </td>
+        <td></td>
+        <td style="text-align:right;" style="width:300px;">
+        <div class="tabbuttoncontainer" style="float:right;"><a href="{% url 'logout' %}"><div class="tabbutton">Выйти</div></a></div>
+         </td></tr>
+        <tr>
+            <td id="tdduties" style="width:300px;">
+                <span class="topicfont">&nbsp;&nbsp;&nbsp;Дела</span>
+                <div class="rstblock" style="width:300px;">
+                    <div id="Dela_table_index" style="visibility: hidden; height:0px;">{{ delacodes  }}</div>
+                    <div class="buttons Dela_table" style="width:100%;">
+                        <img src="/static/img/buttons/add.png" %}="" onclick="activeJdatatable = 'Dela_table'; JdatatableAction('add')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/copy.png" %} onclick="activeJdatatable = 'Dela_table'; JdatatableAction('copy')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/edit.png" %} onclick="activeJdatatable = 'Dela_table'; JdatatableAction('edit')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/delete.png" %} onclick="activeJdatatable = 'Dela_table'; JdatatableAction('delete')" style="cursor: pointer;">
+                        <img src={% static "img/buttons/monthleft.png" %} onclick="activeJdatatable = 'Dela_table'; changedate(-1,0);" style="cursor: pointer;">
+                        <img src={% static "img/buttons/left.png" %} onclick="activeJdatatable = 'Dela_table'; changedate(0,-1);" style="cursor: pointer;">
+                        <img src={% static "img/buttons/right.png" %} onclick="activeJdatatable = 'Dela_table'; changedate(0,1);" style="cursor: pointer;">
+                        <img src={% static "img/buttons/monthright.png" %} onclick="activeJdatatable = 'Dela_table'; changedate(1,0);" style="cursor: pointer;">                                
+                    </div>
+                    <div style="height:30px;">
+                        <div id="deladate"><span style="vertical-align:middle">
+							Дата:&nbsp;&nbsp;&nbsp;<input id="dateinput" type="date" value="{{ dateinput }}" 
+                            style="width:80%" onfocus="deactiveclienttable"
+                            onchange="settimeoffset()" onclick="deactiveJtable()"></span>
+						</div>
+                    </div>
+                    <table class="datatable" id="Dela_table">
+						<tr class="datatablehead">
+							<td rowspan=2 width="10px"> </td>
+							<td width="80px">Начало</td>
+							<td rowspan=2>Заголовок</td>
+                        </tr>
+						<tr class="datatablehead">
+							<td>Окончание</td>
+						</tr>
+						{% for delo in dela_list %}
+							<tr class="datatabledata" id="{{delo.code}}" height="{{ delo|cellheight }}">
+                                <td rowspan=2 width="10px">
+                                </td>
+							    <td width="80px">{{ delo.start|date:'H:i' }}</td>
+							    <td rowspan=2>{{ delo.topic }}</td>
+							</tr>
+							<tr class="datatabledata" id="{{delo.code}}" height="{{ delo|cellheight }}">
+								<td>{{ delo.finish|date:'H:i' }}</td>
+							</tr>
+						{% endfor %}
+					</table>
+                </div>             
+            </td>
+            <td style = "padding:0;">
+                <table id="bodytable2">
+                    <tr style="height:50%;">
+                        <td>
+                            <span class="topicfont">&nbsp;&nbsp;&nbsp;Клиенты</span>
+                            
+                            <div class="rstblock">
+                                   
+                                {{ cltable|safe }}
+                                                         
+                           </div>
+                        </td>
+                    </tr>
+                    <tr style="height:50%;">
+                        <td>
+                            <span class="topicfont">&nbsp;&nbsp;&nbsp;Контактные лица</span>                            
+                            <div class="rstblock">
+                                   
+                                {{ cntable|safe }}
+                                                         
+                           </div>
+                        </td>
+                    </tr>
+                 </table>
+                 
+            </td>
+            <td>
+				<span class="topicfont">&nbsp;&nbsp;&nbsp;Заметки</span>
+				<table class="rstblock" style="height:95%;">
+					<tr>
+						<td style="background:#FFFFFF; padding:0px;"><textarea style="width:100%;height:98%" id="clientnotearea" onfocus="deactiveJtable()" >{{ note }}</textarea>
+                        <button onclick="savenote()" style="width:100%;">Сохранить</button>
+                        	
+    </td>
+					</tr>
+				</table>
+                <div id="dialogstack">	
+        <div id="clientparent">{{clientparent}}</div>
+	</div>
+			</td>
+        </tr>
+    </table>
+</body>
+
+</html>

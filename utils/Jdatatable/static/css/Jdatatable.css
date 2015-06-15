@@ -1,0 +1,11 @@
+.datatable td{
+    background-color: #FFFFFF;
+}
+
+.datatable .active td{
+    background-color: #CCCCFF;
+}
+
+.datatable {
+    width:100%;
+}

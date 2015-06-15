@@ -1,0 +1,1 @@
+C:\Bitnami\djangostack\python\python.exe C:\Bitnami\projects\JoomboCRM\manage.py checkdela
