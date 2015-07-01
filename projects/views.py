@@ -11,6 +11,8 @@ from django.utils.translation import ugettext_lazy as _
 import datetime
 from clients.views import GetNewCode
 from django.contrib.auth.models import User
+import JoomboCRM.settings as settings
+import os
 
 import logging
 logger = logging.getLogger(__name__)
@@ -117,6 +119,8 @@ def edit(request, instance, folderclass):
         elif instance._meta.model == Task:
             formname = _('EditingTask')
             checklist = getchecklist(instance.checklist, 'checklist')
+            attachestab = getattaches(instance.attaches, 'attaches')
+            attaches = {'tab':attachestab, 'catalog':instance.attaches}
             if instance.finished:
                 finished = datetime.datetime.strftime(instance.finished-timeoffset, "%Y-%m-%dT%H:%M")
             else:
@@ -145,6 +149,7 @@ def edit(request, instance, folderclass):
                  'formname':formname,
                  'modelname': 'Task',
                  'checklist': checklist,
+                 'attaches':attaches,
                 }
             c.update(csrf(request))
             return render_to_response('edittask.html', c)
@@ -179,8 +184,6 @@ def editformprocessor(request):
         np.checklist = ''
         for cntr in checkcatalog:
             cntrm = cntr.split(' $# ')
-            logger.debug(cntrm[0])
-            logger.debug(checklist)
             if str(cntrm[0]) in checklist:
                 checked = '1'
             else:
@@ -188,7 +191,6 @@ def editformprocessor(request):
             np.checklist = np.checklist+cntr+" $# "+checked+" $$ "    
         if len(np.checklist)>1:
             np.checklist = np.checklist[:-4]
-        np.attaches = request.POST['attaches']
         np.progress = request.POST['progress']
         np.status = request.POST['status']
         np.liables = request.POST.getlist('liables')
@@ -197,6 +199,30 @@ def editformprocessor(request):
             np.project = Project.objects.filter(owner=request.user).filter(id=request.POST['project'])[0]
         else:
             np.project = curpr
+        flist = request.FILES.getlist('attaches')
+        
+# delete old files
+        oldfiles = np.attaches.split('; ')
+        attcatalog = request.POST['attcatalog']
+        for fl in oldfiles:
+            if attcatalog.find(fl)<0:
+                os.remove(fl.replace(settings.MEDIA_URL, settings.MEDIA_ROOT))
+        np.attaches = attcatalog
+        
+# add new files
+        if len(flist)>0:
+            fway = settings.MEDIA_ROOT+'documents/'+datetime.datetime.strftime(datetime.datetime.now(), "%Y%m%d")+'/'
+            fhref =  settings.MEDIA_URL+'documents/'+datetime.datetime.strftime(datetime.datetime.now(), "%Y%m%d")+'/'
+            if not os.path.exists(fway):
+                os.makedirs(fway)
+            for fl in flist:
+                fdname = fway+fl.name
+                fname = fhref+fl.name
+                nfl = open(fdname, 'wb+')
+                for chunk in fl.chunks():
+                    nfl.write(chunk)
+                nfl.close()
+                np.attaches = np.attaches+fname+'; '
     else:
         if request.POST['code']:
             np = Project.objects.filter(owner=request.user).filter(code=request.POST['code'])[0]
@@ -225,16 +251,33 @@ def getchecklist(field, fname):
     catalog = ''
     result = ''
     flist = field.split(' $$ ')
+    result = result + '<table class="checklist" id="cltable" width="100%">'
     for cntr in range(len(flist)):
         chtrlst = flist[cntr].split(' $# ')
         catalog = catalog + chtrlst[0] + ' $# ' + chtrlst[1] + ' $$ '
+        logger.debug(chtrlst[1])
         if chtrlst[2] == '1':
             checked = 'checked'
         else:
             checked = ''
-        result = result+'<div><input type="checkbox" id="id_'+fname+'[]" name="'+fname+'[]" style="width:15px;" value='+chtrlst[0]+' '+checked+'>'+chtrlst[1]
-        result = result+'&nbsp;&nbsp;&nbsp;<img src="/static/img/buttons/edit.png" onclick="editclelm(this,'+chtrlst[0]+');">'
-        result = result+'&nbsp;<img src="/static/img/buttons/delete.png" onclick="deleteclelm(this,'+chtrlst[0]+');"></div>'
+        result = result+'<tr><td><input type="checkbox" id="id_'+fname+'[]" name="'+fname+'[]" style="width:15px;" value='+chtrlst[0]+' '+checked+'></td>'
+        result = result+'<td><span style="cursor:pointer" onclick="editclelm(this,'+chtrlst[0]+');">'+chtrlst[1]+'</span></td>'
+        result = result+'<td><img src="/static/img/buttons/delete.png" style="cursor:pointer" onclick="deleteclelm(this,'+chtrlst[0]+');"></td></tr>'
+    addclcnst = _('Add')
+    result = result + '<tr id="addclelmtr"><td style="text-align:center;cursor:pointer;" colspan=3 onclick="addclelm() ">'+addclcnst.translate('ru')+'</td></tr></table>'
 #           result = result+'<option value="'+chtrlst[0]+'" selected="selected">'+chtrlst[1]+'</option>'
 #    result = result+'</select>'
     return {'chlist':result, 'catalog':catalog[:-4]}
+    
+def getattaches(field, fname):
+    if len(field)>0:
+        result = '<table width="100%">'
+        flist = field.split('; ');
+        flist.remove(flist[-1])
+        for fl in flist:
+            sfl = os.path.split(fl)
+            result = result + '<tr id="'+fl+'"><td><a href="'+fl+'">'+sfl[1]+'</a></td>'
+            result = result + '<td width="20px"><img src="/static/img/buttons/delete.png" style="cursor:pointer" onclick="deletefl(this);"></td></tr>'
+        result = result + '</table>'
+        return result
+    

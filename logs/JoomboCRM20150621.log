@@ -1,0 +1,880 @@
+[21/Jun/2015 18:33:30] WARNING [django.request:143] Not Found: /phpmyadmin/scripts/setup.php
+[21/Jun/2015 18:37:05] WARNING [django.request:143] Not Found: /CFIDE/administrator/
+[21/Jun/2015 20:21:32] WARNING [django.request:99] Forbidden (CSRF cookie not set.): /
+[21/Jun/2015 22:04:19] DEBUG [django.db.backends:79] (0.019) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:04:17.824000+03:00' ); args=(True, u'2015-06-21 22:04:17.824000+03:00')
+[21/Jun/2015 22:04:19] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:04:19.107000+03:00' ); args=(True, u'2015-06-21 22:04:19.107000+03:00')
+[21/Jun/2015 22:09:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:09:17.453000+03:00' ); args=(True, u'2015-06-21 22:09:17.453000+03:00')
+[21/Jun/2015 22:09:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:09:18.556000+03:00' ); args=(True, u'2015-06-21 22:09:18.556000+03:00')
+[21/Jun/2015 22:14:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:14:17.465000+03:00' ); args=(True, u'2015-06-21 22:14:17.465000+03:00')
+[21/Jun/2015 22:14:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:14:18.622000+03:00' ); args=(True, u'2015-06-21 22:14:18.622000+03:00')
+[21/Jun/2015 22:19:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:19:17.444000+03:00' ); args=(True, u'2015-06-21 22:19:17.444000+03:00')
+[21/Jun/2015 22:19:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:19:18.579000+03:00' ); args=(True, u'2015-06-21 22:19:18.579000+03:00')
+[21/Jun/2015 22:24:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:24:17.495000+03:00' ); args=(True, u'2015-06-21 22:24:17.495000+03:00')
+[21/Jun/2015 22:24:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:24:18.616000+03:00' ); args=(True, u'2015-06-21 22:24:18.616000+03:00')
+[21/Jun/2015 22:29:18] DEBUG [django.db.backends:79] (0.002) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:29:17.456000+03:00' ); args=(True, u'2015-06-21 22:29:17.456000+03:00')
+[21/Jun/2015 22:29:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:29:18.583000+03:00' ); args=(True, u'2015-06-21 22:29:18.583000+03:00')
+[21/Jun/2015 22:34:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:34:17.495000+03:00' ); args=(True, u'2015-06-21 22:34:17.495000+03:00')
+[21/Jun/2015 22:34:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:34:18.645000+03:00' ); args=(True, u'2015-06-21 22:34:18.645000+03:00')
+[21/Jun/2015 22:39:18] DEBUG [django.db.backends:79] (0.002) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:39:17.456000+03:00' ); args=(True, u'2015-06-21 22:39:17.456000+03:00')
+[21/Jun/2015 22:39:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:39:18.593000+03:00' ); args=(True, u'2015-06-21 22:39:18.593000+03:00')
+[21/Jun/2015 22:44:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:44:17.471000+03:00' ); args=(True, u'2015-06-21 22:44:17.471000+03:00')
+[21/Jun/2015 22:44:18] DEBUG [django.db.backends:79] (0.001) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:44:18.612000+03:00' ); args=(True, u'2015-06-21 22:44:18.612000+03:00')
+[21/Jun/2015 22:49:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:49:17.426000+03:00' ); args=(True, u'2015-06-21 22:49:17.426000+03:00')
+[21/Jun/2015 22:49:18] DEBUG [django.db.backends:79] (0.002) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:49:18.544000+03:00' ); args=(True, u'2015-06-21 22:49:18.544000+03:00')
+[21/Jun/2015 22:54:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:54:17.469000+03:00' ); args=(True, u'2015-06-21 22:54:17.469000+03:00')
+[21/Jun/2015 22:54:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:54:18.599000+03:00' ); args=(True, u'2015-06-21 22:54:18.599000+03:00')
+[21/Jun/2015 22:59:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:59:17.449000+03:00' ); args=(True, u'2015-06-21 22:59:17.449000+03:00')
+[21/Jun/2015 22:59:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 22:59:18.569000+03:00' ); args=(True, u'2015-06-21 22:59:18.569000+03:00')
+[21/Jun/2015 23:04:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:04:17.439000+03:00' ); args=(True, u'2015-06-21 23:04:17.439000+03:00')
+[21/Jun/2015 23:04:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:04:18.579000+03:00' ); args=(True, u'2015-06-21 23:04:18.579000+03:00')
+[21/Jun/2015 23:09:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:09:17.450000+03:00' ); args=(True, u'2015-06-21 23:09:17.450000+03:00')
+[21/Jun/2015 23:09:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:09:18.590000+03:00' ); args=(True, u'2015-06-21 23:09:18.590000+03:00')
+[21/Jun/2015 23:14:18] DEBUG [django.db.backends:79] (0.010) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:14:17.460000+03:00' ); args=(True, u'2015-06-21 23:14:17.460000+03:00')
+[21/Jun/2015 23:14:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:14:18.600000+03:00' ); args=(True, u'2015-06-21 23:14:18.600000+03:00')
+[21/Jun/2015 23:19:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:19:17.471000+03:00' ); args=(True, u'2015-06-21 23:19:17.471000+03:00')
+[21/Jun/2015 23:19:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:19:18.611000+03:00' ); args=(True, u'2015-06-21 23:19:18.611000+03:00')
+[21/Jun/2015 23:24:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:24:17.451000+03:00' ); args=(True, u'2015-06-21 23:24:17.451000+03:00')
+[21/Jun/2015 23:24:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:24:18.571000+03:00' ); args=(True, u'2015-06-21 23:24:18.571000+03:00')
+[21/Jun/2015 23:29:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:29:17.462000+03:00' ); args=(True, u'2015-06-21 23:29:17.462000+03:00')
+[21/Jun/2015 23:29:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:29:18.592000+03:00' ); args=(True, u'2015-06-21 23:29:18.592000+03:00')
+[21/Jun/2015 23:34:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:34:17.442000+03:00' ); args=(True, u'2015-06-21 23:34:17.442000+03:00')
+[21/Jun/2015 23:34:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:34:18.592000+03:00' ); args=(True, u'2015-06-21 23:34:18.592000+03:00')
+[21/Jun/2015 23:39:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:39:17.442000+03:00' ); args=(True, u'2015-06-21 23:39:17.442000+03:00')
+[21/Jun/2015 23:39:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:39:18.582000+03:00' ); args=(True, u'2015-06-21 23:39:18.582000+03:00')
+[21/Jun/2015 23:44:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:44:17.443000+03:00' ); args=(True, u'2015-06-21 23:44:17.443000+03:00')
+[21/Jun/2015 23:44:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:44:18.593000+03:00' ); args=(True, u'2015-06-21 23:44:18.593000+03:00')
+[21/Jun/2015 23:49:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:49:17.443000+03:00' ); args=(True, u'2015-06-21 23:49:17.443000+03:00')
+[21/Jun/2015 23:49:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:49:18.593000+03:00' ); args=(True, u'2015-06-21 23:49:18.593000+03:00')
+[21/Jun/2015 23:54:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:54:17.434000+03:00' ); args=(True, u'2015-06-21 23:54:17.434000+03:00')
+[21/Jun/2015 23:54:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:54:18.564000+03:00' ); args=(True, u'2015-06-21 23:54:18.564000+03:00')
+[21/Jun/2015 23:59:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendsms" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:59:17.444000+03:00' ); args=(True, u'2015-06-21 23:59:17.444000+03:00')
+[21/Jun/2015 23:59:18] DEBUG [django.db.backends:79] (0.000) SELECT "dela_message"."id", "dela_message"."owner_id", "dela_message"."topic", "dela_message"."content", "dela_message"."sendtime", "dela_message"."sendsms", "dela_message"."sendmail" FROM "dela_message" WHERE ("dela_message"."sendmail" = true  AND "dela_message"."sendtime" <= '2015-06-21 23:59:18.584000+03:00' ); args=(True, u'2015-06-21 23:59:18.584000+03:00')
+[22/Jun/2015 11:08:24] WARNING [django.request:99] Forbidden (CSRF cookie not set.): /
+[22/Jun/2015 13:33:38] DEBUG [django.db.backends:79] (0.011) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:33:37.764000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:33:37.764000+00:00')
+[22/Jun/2015 13:33:38] DEBUG [django.db.backends:79] (0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:38] DEBUG [clients.views:39] -1 day, 21:00:00
+[22/Jun/2015 13:33:38] DEBUG [django.db.backends:79] (0.005) SELECT "dela_dela"."id", "dela_dela"."owner_id", "dela_dela"."code", "dela_dela"."topic", "dela_dela"."start", "dela_dela"."finish", "dela_dela"."content", "dela_dela"."result", "dela_dela"."finished", "dela_dela"."attache", "dela_dela"."isdeleted" FROM "dela_dela" WHERE ("dela_dela"."owner_id" = 1  AND "dela_dela"."start" <= '2015-06-22 23:59:59.099999+03:00'  AND "dela_dela"."finish" >= '2015-06-22 00:00:00+03:00'  AND "dela_dela"."isdeleted" = false ); args=(1, u'2015-06-22 23:59:59.099999+03:00', u'2015-06-22 00:00:00+03:00', False)
+[22/Jun/2015 13:33:38] DEBUG [django.db.backends:79] (0.006) SELECT "clients_client"."id", "clients_client"."owner_id", "clients_client"."parent_id", "clients_client"."isfolder", "clients_client"."code", "clients_client"."name", "clients_client"."iscompany", "clients_client"."INN", "clients_client"."KPP", "clients_client"."email", "clients_client"."uradress", "clients_client"."factadress", "clients_client"."phone", "clients_client"."fax", "clients_client"."site", "clients_client"."isdeleted", "clients_client"."region_id", "clients_client"."categoty_id", "clients_client"."reltype_id" FROM "clients_client" WHERE ("clients_client"."parent_id" IS NULL AND "clients_client"."isdeleted" = false  AND "clients_client"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:33:38] DEBUG [utils.Jdatatable:22] [<Client: (1)000000001 Трафик>, <Client: (11)000000002 Джумбо>, <Client: (27)000000003 Медимпекс>, <Client: (31)000000007 АМА>, <Client: (38)000000014 Burnett>, <Client: (43)000000019 Новые>, <Client: (53)000000027 Эко-Консалт>, <Client: (54)000000028 Надя>]
+[22/Jun/2015 13:33:38] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:33:38] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:33:38] DEBUG [django.db.backends:79] (0.002) UPDATE "django_session" SET "session_data" = 'YzU4MTU1YzliZTk2YzQwMjIxMTllZTk5ZjQwZTJiYzZlZWQ2NjllODp7InRpbWVvZmZzZXQiOi0xMDgwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNi0xOSIsIl9hdXRoX3VzZXJfaWQiOjEsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwicGFyZW50Y29kZSI6bnVsbH0=', "expire_date" = '2015-07-06 10:33:38.960000+00:00' WHERE "django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua' ; args=(u'YzU4MTU1YzliZTk2YzQwMjIxMTllZTk5ZjQwZTJiYzZlZWQ2NjllODp7InRpbWVvZmZzZXQiOi0xMDgwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNi0xOSIsIl9hdXRoX3VzZXJfaWQiOjEsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwicGFyZW50Y29kZSI6bnVsbH0=', u'2015-07-06 10:33:38.960000+00:00', 'x31qhx1czn736a17d4jaq94f14h5thua')
+[22/Jun/2015 13:33:39] WARNING [django.request:143] Not Found: /favicon.ico
+[22/Jun/2015 13:33:40] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:33:39.372000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:33:39.372000+00:00')
+[22/Jun/2015 13:33:40] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:40] DEBUG [dela.views:24] 4140
+[22/Jun/2015 13:33:40] DEBUG [dela.views:27] 248400
+[22/Jun/2015 13:33:40] DEBUG [clients.views:39] 2 days, 21:00:00
+[22/Jun/2015 13:33:40] DEBUG [django.db.backends:79] (0.001) SELECT "dela_dela"."id", "dela_dela"."owner_id", "dela_dela"."code", "dela_dela"."topic", "dela_dela"."start", "dela_dela"."finish", "dela_dela"."content", "dela_dela"."result", "dela_dela"."finished", "dela_dela"."attache", "dela_dela"."isdeleted" FROM "dela_dela" WHERE ("dela_dela"."owner_id" = 1  AND "dela_dela"."start" <= '2015-06-19 23:59:59.099999+03:00'  AND "dela_dela"."finish" >= '2015-06-19 00:00:00+03:00'  AND "dela_dela"."isdeleted" = false ); args=(1, u'2015-06-19 23:59:59.099999+03:00', u'2015-06-19 00:00:00+03:00', False)
+[22/Jun/2015 13:33:40] DEBUG [django.db.backends:79] (0.001) SELECT "clients_client"."id", "clients_client"."owner_id", "clients_client"."parent_id", "clients_client"."isfolder", "clients_client"."code", "clients_client"."name", "clients_client"."iscompany", "clients_client"."INN", "clients_client"."KPP", "clients_client"."email", "clients_client"."uradress", "clients_client"."factadress", "clients_client"."phone", "clients_client"."fax", "clients_client"."site", "clients_client"."isdeleted", "clients_client"."region_id", "clients_client"."categoty_id", "clients_client"."reltype_id" FROM "clients_client" WHERE ("clients_client"."parent_id" IS NULL AND "clients_client"."isdeleted" = false  AND "clients_client"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:33:40] DEBUG [utils.Jdatatable:22] [<Client: (1)000000001 Трафик>, <Client: (11)000000002 Джумбо>, <Client: (27)000000003 Медимпекс>, <Client: (31)000000007 АМА>, <Client: (38)000000014 Burnett>, <Client: (43)000000019 Новые>, <Client: (53)000000027 Эко-Консалт>, <Client: (54)000000028 Надя>]
+[22/Jun/2015 13:33:40] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:33:40] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:33:40] DEBUG [django.db.backends:79] (0.001) UPDATE "django_session" SET "session_data" = 'MzA5YTM0ZDEyODBmYjIxOTExYmMwYjUyNDkwNDBkMWNjM2ZhNTM3MDp7InRpbWVvZmZzZXQiOjI0ODQwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNi0xOSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MSwicGFyZW50Y29kZSI6bnVsbH0=', "expire_date" = '2015-07-06 10:33:40.432000+00:00' WHERE "django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua' ; args=(u'MzA5YTM0ZDEyODBmYjIxOTExYmMwYjUyNDkwNDBkMWNjM2ZhNTM3MDp7InRpbWVvZmZzZXQiOjI0ODQwMCwiZGF0ZWlucHV0IjoiMjAxNS0wNi0xOSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MSwicGFyZW50Y29kZSI6bnVsbH0=', u'2015-07-06 10:33:40.432000+00:00', 'x31qhx1czn736a17d4jaq94f14h5thua')
+[22/Jun/2015 13:33:42] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:33:41.839000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:33:41.839000+00:00')
+[22/Jun/2015 13:33:42] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:42] DEBUG [django.db.backends:79] (0.004) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."isdeleted" = false  AND "projects_project"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:33:42] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:42] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:46] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:33:45.952000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:33:45.952000+00:00')
+[22/Jun/2015 13:33:46] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:47] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."isdeleted" = false  AND "projects_project"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:33:47] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:33:47] DEBUG [django.db.backends:79] (0.007) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."project_id" = 1  AND "projects_task"."isdeleted" = false  AND "projects_task"."owner_id" = 1 ); args=(1, False, 1)
+[22/Jun/2015 13:33:47] DEBUG [utils.Jdatatable:22] [<Task: (3)000000001 Доделать модуль>]
+[22/Jun/2015 13:33:47] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:47] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469607
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248064519e-07
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:33:47] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32759
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:33:51.614000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:33:51.614000+00:00')
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:52] DEBUG [utils.Jdatatable:109] Task_table
+[22/Jun/2015 13:33:52] DEBUG [utils.Jdatatable:114] 000000001
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:33:52] DEBUG [utils.Jdatatable:121] <module 'projects.views' from 'C:/Bitnami/projects/JoomboCRM/projects\views.pyc'>
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать комментарии!!
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать аттачи
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать историю статуса
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Убрать куррент файл
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Делать многопользовательность
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать чеклист
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Зависимость прогресса от задач
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать в чеклисте textarea
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать отправку смс
+[22/Jun/2015 13:33:52] DEBUG [projects.views:233] Сделать чтобы браузерный кэш не портил сайт
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE "projects_project"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project"; args=()
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task"; args=()
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_admins" ON ( "auth_user"."id" = "projects_task_admins"."user_id" ) WHERE "projects_task_admins"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.004) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_liables" ON ( "auth_user"."id" = "projects_task_liables"."user_id" ) WHERE "projects_task_liables"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.003) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_observers" ON ( "auth_user"."id" = "projects_task_observers"."user_id" ) WHERE "projects_task_observers"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:33:52] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:34:31] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:34:30.274000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:34:30.274000+00:00')
+[22/Jun/2015 13:34:31] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:34:31] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>
+[22/Jun/2015 13:34:31] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:34:31] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '4103',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundary4ijp6oWndpK2ciOP',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '40393',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04ACDF70>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04B3DC38>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04AC6EF8>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:34:31] DEBUG [django.db.backends:79] (0.000) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:31] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:31] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:34:31] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:31] ERROR [django.request:224] Internal Server Error: /jeditformprocessor/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/utils\Jdatatable\views.py", line 142, in jeditformprocessor
+    response = getattr(module.views, 'editformprocessor')(request)
+  File "C:/Bitnami/projects/JoomboCRM/projects\views.py", line 191, in editformprocessor
+    np.attaches = request.POST['attaches']
+  File "C:\Bitnami\djangostack\apps\django\django\utils\datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'attaches'"
+[22/Jun/2015 13:34:34] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:34:33.500000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:34:33.500000+00:00')
+[22/Jun/2015 13:34:34] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:34:34] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>
+[22/Jun/2015 13:34:34] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:34:34] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '4103',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundaryRWPUgSLTzSI4W2Pq',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '55382',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04B4A318>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04B3DDE8>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04B4A868>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:34:34] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:34] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:34] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:34:34] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:34] ERROR [django.request:224] Internal Server Error: /jeditformprocessor/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/utils\Jdatatable\views.py", line 142, in jeditformprocessor
+    response = getattr(module.views, 'editformprocessor')(request)
+  File "C:/Bitnami/projects/JoomboCRM/projects\views.py", line 191, in editformprocessor
+    np.attaches = request.POST['attaches']
+  File "C:\Bitnami\djangostack\apps\django\django\utils\datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'attaches'"
+[22/Jun/2015 13:34:40] DEBUG [django.db.backends:79] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:34:39.239000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:34:39.239000+00:00')
+[22/Jun/2015 13:34:40] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:34:40] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>
+[22/Jun/2015 13:34:40] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:34:40] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '4103',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundarys1zPymbvdtpm45Sm',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '3651',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04BFFEA8>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04C0ECC8>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04BFFE58>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:34:40] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:40] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:34:40] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:34:40] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:34:40] ERROR [django.request:224] Internal Server Error: /jeditformprocessor/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/utils\Jdatatable\views.py", line 142, in jeditformprocessor
+    response = getattr(module.views, 'editformprocessor')(request)
+  File "C:/Bitnami/projects/JoomboCRM/projects\views.py", line 191, in editformprocessor
+    np.attaches = request.POST['attaches']
+  File "C:\Bitnami\djangostack\apps\django\django\utils\datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'attaches'"
+[22/Jun/2015 13:35:35] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:35:34.426000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:35:34.426000+00:00')
+[22/Jun/2015 13:35:35] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:35:35] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>
+[22/Jun/2015 13:35:35] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:35:35] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '4103',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundaryLSw7lseKD453zn3Q',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '24582',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04B21D68>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04C0E380>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04BFFE08>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:35:35] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:35:35] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:35:35] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:35:35] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:35:35] ERROR [django.request:224] Internal Server Error: /jeditformprocessor/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/utils\Jdatatable\views.py", line 142, in jeditformprocessor
+    response = getattr(module.views, 'editformprocessor')(request)
+  File "C:/Bitnami/projects/JoomboCRM/projects\views.py", line 191, in editformprocessor
+    np.attaches = request.POST['attaches']
+  File "C:\Bitnami\djangostack\apps\django\django\utils\datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'attaches'"
+[22/Jun/2015 13:36:47] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:36:46.115000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:36:46.115000+00:00')
+[22/Jun/2015 13:36:47] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:36:47] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>
+[22/Jun/2015 13:36:47] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:36:47] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '4103',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundarybnVqgQMFcZP5JGjd',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '3704',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04B21A20>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04C0EF98>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04B552C8>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:36:47] DEBUG [django.db.backends:79] (0.002) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:36:47] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:36:47] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:36:47] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:36:47] ERROR [django.request:224] Internal Server Error: /jeditformprocessor/
+Traceback (most recent call last):
+  File "C:\Bitnami\djangostack\apps\django\django\core\handlers\base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Bitnami\djangostack\apps\django\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:/Bitnami/projects/JoomboCRM/utils\Jdatatable\views.py", line 142, in jeditformprocessor
+    response = getattr(module.views, 'editformprocessor')(request)
+  File "C:/Bitnami/projects/JoomboCRM/projects\views.py", line 191, in editformprocessor
+    np.attaches = request.POST['attaches']
+  File "C:\Bitnami\djangostack\apps\django\django\utils\datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'attaches'"
+[22/Jun/2015 13:37:49] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:37:48.229000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:37:48.229000+00:00')
+[22/Jun/2015 13:37:49] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:49] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."isdeleted" = false  AND "projects_project"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:37:49] DEBUG [utils.Jdatatable:22] []
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:49] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:37:50.724000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:37:50.724000+00:00')
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."isdeleted" = false  AND "projects_project"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."project_id" = 1  AND "projects_task"."isdeleted" = false  AND "projects_task"."owner_id" = 1 ); args=(1, False, 1)
+[22/Jun/2015 13:37:51] DEBUG [utils.Jdatatable:22] [<Task: (3)000000001 Доделать модуль>]
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:51] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:51] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:37:52.350000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:37:52.350000+00:00')
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:53] DEBUG [utils.Jdatatable:109] Task_table
+[22/Jun/2015 13:37:53] DEBUG [utils.Jdatatable:114] 000000001
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:37:53] DEBUG [utils.Jdatatable:121] <module 'projects.views' from 'C:/Bitnami/projects/JoomboCRM/projects\views.pyc'>
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать комментарии!!
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать аттачи
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать историю статуса
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Убрать куррент файл
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Делать многопользовательность
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать чеклист
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Зависимость прогресса от задач
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать в чеклисте textarea
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать отправку смс
+[22/Jun/2015 13:37:53] DEBUG [projects.views:233] Сделать чтобы браузерный кэш не портил сайт
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE "projects_project"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project"; args=()
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task"; args=()
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_admins" ON ( "auth_user"."id" = "projects_task_admins"."user_id" ) WHERE "projects_task_admins"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_liables" ON ( "auth_user"."id" = "projects_task_liables"."user_id" ) WHERE "projects_task_liables"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" INNER JOIN "projects_task_observers" ON ( "auth_user"."id" = "projects_task_observers"."user_id" ) WHERE "projects_task_observers"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:53] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user"; args=()
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'x31qhx1czn736a17d4jaq94f14h5thua'  AND "django_session"."expire_date" > '2015-06-22 10:37:56.148000+00:00' ); args=('x31qhx1czn736a17d4jaq94f14h5thua', u'2015-06-22 10:37:56.148000+00:00')
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:57] DEBUG [utils.Jdatatable:136] <QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task'], u'attaches': [u'']}>
+[22/Jun/2015 13:37:57] DEBUG [utils.Jdatatable:140] <module 'projects' from 'C:/Bitnami/projects/JoomboCRM/projects\__init__.pyc'>
+[22/Jun/2015 13:37:57] DEBUG [projects.views:161] <WSGIRequest
+path:/jeditformprocessor/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'code': [u'000000001'], u'projectid': [u'000000001'], u'topic': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c'], u'result': [u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0'], u'checkcatalog': [u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442'], u'content': [u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c '], u'start': [u'2015-06-03T13:02'], u'progress': [u'1'], u'csrfmiddlewaretoken': [u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh'], u'status': [u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f'], u'finish': [u'2015-06-06T13:03'], u'parent': [u''], u'checklist[]': [u'7'], u'statushist': [u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;'], u'parentcode': [u''], u'observers': [u'3'], u'finished': [u'2015-06-05T00:00'], u'liables': [u'3', u'4'], u'project': [u'1'], u'admins': [u'1'], u'liable': [u'4'], u'model': [u'Task'], u'attaches': [u'']}>,
+COOKIES:{'csrftoken': 'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'sessionid': 'x31qhx1czn736a17d4jaq94f14h5thua'},
+META:{'COMSPEC': 'C:\\Windows\\system32\\cmd.exe',
+ 'CONTENT_LENGTH': '3837',
+ 'CONTENT_TYPE': 'multipart/form-data; boundary=----WebKitFormBoundaryGw13FXSov0v2Maic',
+ 'CONTEXT_DOCUMENT_ROOT': '/apache/htdocs',
+ 'CONTEXT_PREFIX': '',
+ u'CSRF_COOKIE': u'KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'DOCUMENT_ROOT': '/apache/htdocs',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HTTP_ACCEPT': '*/*',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=x31qhx1czn736a17d4jaq94f14h5thua; csrftoken=KitrHGF10YyDH1HhGTqGf1x41mwPzDhh',
+ 'HTTP_HOST': 'joombocrm.tk',
+ 'HTTP_ORIGIN': 'http://joombocrm.tk',
+ 'HTTP_REFERER': 'http://joombocrm.tk/projects/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'OPENSSL_CONF': 'C:\\Bitnami\\djangostack/apache2/conf/openssl.cnf',
+ 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+ 'PATH_INFO': u'/jeditformprocessor/',
+ 'PATH_TRANSLATED': 'C:\\Bitnami\\projects\\JoomboCRM\\JoomboCRM\\wsgi.py\\jeditformprocessor\\',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '79.142.82.62',
+ 'REMOTE_PORT': '42677',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_SCHEME': 'http',
+ 'REQUEST_URI': '/jeditformprocessor/',
+ 'SCRIPT_FILENAME': 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/wsgi.py',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_ADDR': '192.168.1.101',
+ 'SERVER_ADMIN': 'admin@example.com',
+ 'SERVER_NAME': 'joombocrm.tk',
+ 'SERVER_PORT': '80',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SIGNATURE': '',
+ 'SERVER_SOFTWARE': 'Apache',
+ 'SystemRoot': 'C:\\Windows',
+ 'WINDIR': 'C:\\Windows',
+ 'mod_wsgi.application_group': '',
+ 'mod_wsgi.callable_object': 'application',
+ 'mod_wsgi.enable_sendfile': '0',
+ 'mod_wsgi.handler_script': '',
+ 'mod_wsgi.input_chunked': '0',
+ 'mod_wsgi.process_group': '',
+ 'mod_wsgi.request_handler': 'wsgi-script',
+ 'mod_wsgi.script_reloading': '1',
+ 'mod_wsgi.version': (3, 5),
+ 'wsgi.errors': <mod_wsgi.Log object at 0x04C28E58>,
+ 'wsgi.file_wrapper': <built-in method file_wrapper of mod_wsgi.Adapter object at 0x04C0E770>,
+ 'wsgi.input': <mod_wsgi.Input object at 0x04C28110>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."owner_id" = 1  AND "projects_task"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 2
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 3
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 4
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 5
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 6
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 7
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 8
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 9
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 10
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [projects.views:182] 11
+[22/Jun/2015 13:37:57] DEBUG [projects.views:183] [u'7']
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) DELETE FROM "projects_task_liables" WHERE "projects_task_liables"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.002) SELECT "projects_task_liables"."user_id" FROM "projects_task_liables" WHERE ("projects_task_liables"."task_id" = 3  AND "projects_task_liables"."user_id" IN (3, 4)); args=(3, 3, 4)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.003) INSERT INTO "projects_task_liables" ("task_id", "user_id") VALUES (3, 3), (3, 4); args=(3, 3, 3, 4)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) DELETE FROM "projects_task_observers" WHERE "projects_task_observers"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) SELECT "projects_task_observers"."user_id" FROM "projects_task_observers" WHERE ("projects_task_observers"."task_id" = 3  AND "projects_task_observers"."user_id" IN (3)); args=(3, 3)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.002) INSERT INTO "projects_task_observers" ("task_id", "user_id") VALUES (3, 3); args=(3, 3)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."id" = 1 ) LIMIT 1; args=(1, 1)
+[22/Jun/2015 13:37:57] DEBUG [projects.views:200] []
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.001) DELETE FROM "projects_task_admins" WHERE "projects_task_admins"."task_id" = 3 ; args=(3,)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "projects_task_admins"."user_id" FROM "projects_task_admins" WHERE ("projects_task_admins"."task_id" = 3  AND "projects_task_admins"."user_id" IN (1)); args=(3, 1)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.002) INSERT INTO "projects_task_admins" ("task_id", "user_id") VALUES (3, 1); args=(3, 1)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.002) UPDATE "projects_task" SET "code" = '000000001', "owner_id" = 1, "project_id" = 1, "parent_id" = NULL, "liable_id" = 4, "start" = '2015-06-03 13:02:00+03:00', "finish" = '2015-06-06 13:03:00+03:00', "changedate" = '2015-06-03 10:01:22+00:00', "createdate" = '2015-06-03 10:01:23+00:00', "topic" = 'Доделать модуль', "content" = 'Доделать этот модуль!
+Сначала форма:
+Проект автоматом тек:ущий 
+папка не себя и не дочернюю
+чеклист - яваскриптный чеклист и окошко нового
+Список вложений, добавление (imput multiple) и удаление
+Статус выбором (поставлена, выполняется, выполнена, не выполнена) (inputtype list)
+история статуса списком ', "progress" = 1, "status" = 'Выполняется', "statushist" = '03.06.2015 13:01:17 $$ Выполняется;', "result" = '0 $# Сделать форму $# 0 $$ 1 $# Описать простые поля $# 0 $$ 2 $# Описать сложные поля $# 1 $$ 3 $# Сделать комментарии $# 0', "finished" = '2015-06-05 00:00:00+03:00', "checklist" = '2 $# Сделать комментарии!! $# 0 $$ 3 $# Сделать аттачи $# 0 $$ 4 $# Сделать историю статуса $# 0 $$ 5 $# Убрать куррент файл $# 0 $$ 6 $# Делать многопользовательность $# 0 $$ 7 $# Сделать чеклист $# 1 $$ 8 $# Зависимость прогресса от задач $# 0 $$ 9 $# Сделать в чеклисте textarea $# 0 $$ 10 $# Сделать отправку смс $# 0 $$ 11 $# Сделать чтобы браузерный кэш не портил сайт $# 0', "attaches" = '', "isdeleted" = false WHERE "projects_task"."id" = 3 ; args=(u'000000001', 1, 1, 4, u'2015-06-03 13:02:00+03:00', u'2015-06-06 13:03:00+03:00', u'2015-06-03 10:01:22+00:00', u'2015-06-03 10:01:23+00:00', u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u043c\u043e\u0434\u0443\u043b\u044c', u'\u0414\u043e\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u0442\u043e\u0442 \u043c\u043e\u0434\u0443\u043b\u044c!\r\n\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0444\u043e\u0440\u043c\u0430:\r\n\u041f\u0440\u043e\u0435\u043a\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u043e\u043c \u0442\u0435\u043a:\u0443\u0449\u0438\u0439 \r\n\u043f\u0430\u043f\u043a\u0430 \u043d\u0435 \u0441\u0435\u0431\u044f \u0438 \u043d\u0435 \u0434\u043e\u0447\u0435\u0440\u043d\u044e\u044e\r\n\u0447\u0435\u043a\u043b\u0438\u0441\u0442 - \u044f\u0432\u0430\u0441\u043a\u0440\u0438\u043f\u0442\u043d\u044b\u0439 \u0447\u0435\u043a\u043b\u0438\u0441\u0442 \u0438 \u043e\u043a\u043e\u0448\u043a\u043e \u043d\u043e\u0432\u043e\u0433\u043e\r\n\u0421\u043f\u0438\u0441\u043e\u043a \u0432\u043b\u043e\u0436\u0435\u043d\u0438\u0439, \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 (imput multiple) \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435\r\n\u0421\u0442\u0430\u0442\u0443\u0441 \u0432\u044b\u0431\u043e\u0440\u043e\u043c (\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0430, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430, \u043d\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430) (inputtype list)\r\n\u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u0441\u043f\u0438\u0441\u043a\u043e\u043c ', 1, u'\u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f', u'03.06.2015 13:01:17 $$ \u0412\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f;', u'0 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 $# 0 $$ 1 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043f\u043e\u043b\u044f $# 0 $$ 2 $# \u041e\u043f\u0438\u0441\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043f\u043e\u043b\u044f $# 1 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 $# 0', u'2015-06-05 00:00:00+03:00', u'2 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!! $# 0 $$ 3 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0430\u0442\u0442\u0430\u0447\u0438 $# 0 $$ 4 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0442\u0430\u0442\u0443\u0441\u0430 $# 0 $$ 5 $# \u0423\u0431\u0440\u0430\u0442\u044c \u043a\u0443\u0440\u0440\u0435\u043d\u0442 \u0444\u0430\u0439\u043b $# 0 $$ 6 $# \u0414\u0435\u043b\u0430\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c $# 0 $$ 7 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0435\u043a\u043b\u0438\u0441\u0442 $# 1 $$ 8 $# \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043e\u0442 \u0437\u0430\u0434\u0430\u0447 $# 0 $$ 9 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0432 \u0447\u0435\u043a\u043b\u0438\u0441\u0442\u0435 textarea $# 0 $$ 10 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0443 \u0441\u043c\u0441 $# 0 $$ 11 $# \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043d\u044b\u0439 \u043a\u044d\u0448 \u043d\u0435 \u043f\u043e\u0440\u0442\u0438\u043b \u0441\u0430\u0439\u0442 $# 0', u'', False, 3)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."isdeleted" = false  AND "projects_project"."owner_id" = 1 ); args=(False, 1)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "projects_project"."id", "projects_project"."code", "projects_project"."owner_id", "projects_project"."start", "projects_project"."finish", "projects_project"."changedate", "projects_project"."createdate", "projects_project"."topic", "projects_project"."content", "projects_project"."progress", "projects_project"."isdeleted" FROM "projects_project" WHERE ("projects_project"."owner_id" = 1  AND "projects_project"."code" = '000000001' ) LIMIT 1; args=(1, u'000000001')
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "projects_task"."id", "projects_task"."code", "projects_task"."owner_id", "projects_task"."project_id", "projects_task"."parent_id", "projects_task"."liable_id", "projects_task"."start", "projects_task"."finish", "projects_task"."changedate", "projects_task"."createdate", "projects_task"."topic", "projects_task"."content", "projects_task"."progress", "projects_task"."status", "projects_task"."statushist", "projects_task"."result", "projects_task"."finished", "projects_task"."checklist", "projects_task"."attaches", "projects_task"."isdeleted" FROM "projects_task" WHERE ("projects_task"."project_id" = 1  AND "projects_task"."isdeleted" = false  AND "projects_task"."owner_id" = 1 ); args=(1, False, 1)
+[22/Jun/2015 13:37:57] DEBUG [utils.Jdatatable:22] [<Task: (3)000000001 Доделать модуль>]
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+[22/Jun/2015 13:37:57] DEBUG [django.db.backends:79] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 4 ; args=(4,)
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 578159640
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: 517469603
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:38] speed: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:39] speedneed: 1.93248066012e-07
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:40] stability: 0.0
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:26] timelength: 60
+[22/Jun/2015 13:37:57] DEBUG [dela.templatetags.clients_tags:27] timeleft: -32763

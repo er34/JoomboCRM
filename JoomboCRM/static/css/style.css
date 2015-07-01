@@ -151,3 +151,7 @@ a {
 .ui-widget textarea {
     width: 100%;
 }
+
+.checklist td {
+    vertical-align:middle;
+}

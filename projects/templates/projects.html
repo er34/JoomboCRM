@@ -7,6 +7,7 @@
 <head>
     <title> Joombo CRM </title>
     <META content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/Jdatatable.css" />
 	<link rel="stylesheet" href="/static/css/jquery.fancybox.css" type="text/css" media="all">
@@ -66,7 +67,7 @@
              }
           });
           $('#id_checkcatalog').val(str.replace(supstr+" $$ ",'').replace(supstr,''));
-          $(those).closest('div').remove();
+          $(those).closest('tr').remove();
       }
     
     function JdatatableAction(operation) {
@@ -107,6 +108,58 @@
                 }
 			});
     }
+    
+    function editclelm(those, id) {
+        $(those).closest('td').html('<textarea onkeydown="editedclelm(this, '+id+')">'+$(those).html()+'</textarea>');
+    }
+    
+    function addclelm() {
+        str = $('#id_checkcatalog').val();
+        strl = str.split(' $$ ');
+        maxind = 0
+        strl.forEach(function(item, i, strl) {
+            strll = item.split(' $# '); 
+            if (parseInt(strll[0])>maxind) {
+                maxind = parseInt(strll[0]) 
+            }
+        });
+        maxind = maxind+1;
+        addclbl = $("#addclelmtr");
+        addclblval = addclbl.html();
+        addclbl.remove();
+        
+        $('#id_checkcatalog').val($('#id_checkcatalog').val()+' $$ '+maxind+' $# Новый пункт');
+        $('#cltable tbody').html($('#cltable tbody').html()
+            +'<tr><td><input type="checkbox" id="id_checklist[]" name="checklist[]" style="width:15px;" value='+maxind+'></td>'
+            +'<td><span style="cursor:pointer" onclick="editclelm(this,'+maxind+');">Новый пункт</span></td>'
+            +'<td><img src="/static/img/buttons/delete.png" style="cursor:pointer" onclick="deleteclelm(this,'+maxind+');"></td></tr>'
+            +'<tr id="addclelmtr">'+addclblval+'</tr>'
+        );
+    }
+    
+    function editedclelm(those, id) {
+        if (event.keyCode == '13') {
+            newval = $(those).val();
+            
+            str = $('#id_checkcatalog').val();
+            strl = str.split(' $$ ');
+            strl.forEach(function(item, i, strl) {
+                  if (item.indexOf(id+' $# ')>=0) {
+                    supstr = item;
+                 }
+              });
+              $('#id_checkcatalog').val(str.replace(supstr,id+' $# '+newval));
+              
+            $(those).closest('td').html('<span style="cursor:pointer" onclick="editclelm(this, '+id+');">'+newval+'</span>')
+        }
+    }
+    
+    function deletefl(those,id) {
+        tr =  $(those).closest('tr');
+        str = $('#id_attcatalog').val();
+        $('#id_attcatalog').val(str.replace(tr.attr('id')+'; ', ''));
+        tr.remove();
+      }
     
     function submitjeditform(thisdialogid) {
         var fmsg = new FormData($('#'+thisdialogid+ ' .editform').get(0));

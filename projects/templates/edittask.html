@@ -49,7 +49,10 @@ Sendfinishedmail
 {{ checklist.chlist|safe }}
 <input type="hidden" id="id_checkcatalog" name="checkcatalog" value="{{  checklist.catalog }}">
 </td>
-<th>{{ jeditform.attaches.label }}</th><td>{{ jeditform.attaches }}</td></tr>
+<th>{{ jeditform.attaches.label }}</th><td>{{ attaches.tab|safe }}
+<input type="hidden" id="id_attcatalog" name="attcatalog" value="{{  attaches.catalog }}">
+<input id="id_attaches" name="attaches" type="file" multiple> 
+</td></tr>
 
 <tr><th>{{ jeditform.admins.label }}</th><td>{{ jeditform.admins }}</td>
 <th>{{ jeditform.liables.label }}</th><td>{{ jeditform.liables }}</td></tr>
@@ -70,9 +73,5 @@ Sendfinishedmail
 <input id="id_parentcode" name="parentcode" type="hidden" value={{ parentcode }}>
 <input type="submit" value="OK">
 </form>
-Current file: 
-{% if delo.attache %}
-<a href="{{ delo.attache.url }}">{{ delo.attache.name }}</a></li>
-{% endif %}
 </div>
 </div>

@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import datetime
+from JoomboCRM.settings_local import *
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 def rel(*x):
@@ -21,14 +22,6 @@ def rel(*x):
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'f^7#@b(we2ie=z-j&3fmb5!)x(^9re%uiv&%jfzmb5jr^7ism7'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-TEMPLATE_DEBUG = True
 
 DEFAULT_FROM_EMAIL = 'joerespublic@yandex.ru'
 SERVER_EMAIL = 'joerespublic@yandex.ru'
@@ -92,20 +85,6 @@ BLEACH_STRIP_COMMENTS = False
 
 WSGI_APPLICATION = 'JoomboCRM.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'joombocrmdb',
-        'HOST': '',
-        'PORT': '5432',
-        'USER': 'bitnami',
-        'PASSWORD': 'fbdfef90a2'
-    }
-}
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -151,12 +130,7 @@ TEMPLATE_LOADERS = (
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/static'
-
 MEDIA_URL = '/media/'
-
-MEDIA_ROOT = 'C:/Bitnami/projects/JoomboCRM/JoomboCRM/media/'
-
 
 # Logging
 
